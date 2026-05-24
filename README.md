@@ -22,3 +22,5 @@ This repository contains the source for a portfolio website designed to present 
 ## Notes
 
 Update the sections, project entries, and contact information to reflect the actual content and goals of the portfolio.
+
+Checkout: https://nishantzalte.netlify.app/
