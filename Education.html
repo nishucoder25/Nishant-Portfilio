@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Zalte - Education</title>
+    <link rel="stylesheet" href="Education.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.list').classList.toggle('active');
+            document.querySelector('.menu-toggle').classList.toggle('active');
+        }
+    </script>
+
+    <div class="page-container">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="navbar">
+            <div class="img"></div>
+            <br>
+            <div class="name">Nishant Zalte</div>
+
+            <div class="list">
+                <a href="index.html" class="opt">Home</a>
+                <hr>
+                <a href="about.html" class="opt">About</a>
+                <hr>
+                <a href="education.html" class="opt" style="color: #42d6ff; text-shadow: 0 0 10px #42d6ff; margin-left: 10px;">Education</a>
+                <hr>
+                <a href="skill.html" class="opt">Skills</a>
+                <hr>
+                <a href="project.html" class="opt">Projects</a>
+            </div>
+
+            <div class="socials">
+                <a href="https://discord.gg/92nhyfHcJ" target="_blank" class="discord soc" style="position: relative; z-index: 9999;">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+
+                <a href="https://github.com/nishucoder25" target="_blank" class="github soc" style="position: relative; z-index: 9999;">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="mailto:nishucoder25@gmail.com" class="email soc" style="position: relative; z-index: 9999;">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="edu-main-content">
+            <div class="edu-container">
+                <div class="heading">EDUCATION</div>
+
+                <div class="timeline">
+                    <div class="edu-card">
+                        <div class="edu-year">2027</div>
+                        <div class="edu-info">
+                            <h2>TSMV</h2>
+                            <p>School with a passion for coding</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-year">2027</div>
+                        <div class="edu-info">
+                            <h2>BSR</h2>
+                            <p>Learning new concepts and advanced architectures</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-card">
+                        <div class="edu-year">---</div>
+                        <div class="edu-info">
+                            <h2>Upcoming Venture</h2>
+                            <p>Expanding technology stacks and systemic knowledge</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

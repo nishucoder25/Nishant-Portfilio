@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nishant Zalte - About</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="About.css">
+</head>
+<body>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.list').classList.toggle('active');
+            document.querySelector('.menu-toggle').classList.toggle('active');
+        }
+    </script>
+
+    <div class="page-container">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="navbar">
+            <div class="img"></div>
+            <br>
+            <div class="name">Nishant Zalte</div>
+
+            <div class="list">
+                <a href="index.html" class="opt">Home</a>
+                <hr>
+                <a href="about.html" class="opt" style="color: #42d6ff; text-shadow: 0 0 10px #42d6ff; margin-left: 10px;">About</a>
+                <hr>
+                <a href="education.html" class="opt">Education</a>
+                <hr>
+                <a href="skill.html" class="opt">Skills</a>
+                <hr>
+                <a href="project.html" class="opt">Projects</a>
+            </div>
+
+            <div class="socials">
+                <div class="discord soc">
+                    <a href="https://discord.gg/92nhyfHcJ" target="_blank">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                </div>
+                <div class="github soc">
+                    <a href="https://github.com/nishucoder25" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="email soc">
+                    <a href="mailto:nishucoder25@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-section">
+            <div class="about-top">
+                <div class="dot"></div>
+                <p>ABOUT </p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-name">Nishant Zalte</div>
+                
+                <div class="about-box">
+                    <p>
+                        Hello! I am Nishant Zalte, a passionate Frontend Developer dedicated to building visually striking and highly interactive user interfaces. I love combining modern styling primitives with smooth, performant user interactions. Always hunting for fresh inspiration to craft code into clean web experiences.
+                    </p>
+
+                    <div class="hobby-box">
+                        <h3>Hobbies</h3>
+                        <ul>
+                            <li>💻 Coding</li>
+                            <li>🎮 Gaming</li>
+                            <li>🎵 Music</li>
+                            <li>🏏 Cricket</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
